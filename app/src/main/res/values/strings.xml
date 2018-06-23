@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FMS App</string>
+    <string name="title_activity_maps">FMS App</string>
+    <string name="stats">Stats</string>
+    <string name="map">Map</string>
+    <string name="rides">Rides</string>
+    <string name="navigate_to">Navigate to …</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="response_debug_text">response will be displayed here</string>
+    <string name="register">Register</string>
+    <string name="email">email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="register_hint">Need account?</string>
+    <string name="activation_email_sent">Activation email was sent</string>
+    <string name="needs_activation">Please activate your account by clicking on the link in the email</string>
+    <string name="ok">OK</string>
+    <string name="error_timeout">timeout or connection error</string>
+    <string name="error_auth">auth error</string>
+    <string name="error_server">server error</string>
+    <string name="error_network">network error</string>
+    <string name="error_parse">parse error</string>
+    <string name="login_successful">login successful</string>
+    <string name="search_ride_by_car_hint">search by car</string>
+    <string name="empty">Empty</string>
+    <string name="time_unknown">time unknown</string>
+</resources>

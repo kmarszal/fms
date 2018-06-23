@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar android:id="@+id/my_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <ViewFlipper android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/view_flipper">
+            <include android:id="@+id/test_view" layout="@layout/somelayout"/>
+            <include android:id="@+id/stats_view" layout="@layout/stats"/>
+            <include android:id="@+id/map_view" layout="@layout/activity_maps"/>
+            <include android:id="@+id/register_view" layout="@layout/register"/>
+            <include android:id="@+id/activation_view" layout="@layout/activation"/>
+            <include android:id="@+id/ride_list" layout="@layout/ride_list"/>
+            <include android:id="@+id/ride_stats" layout="@layout/ride_stats"/>
+            <include android:id="@+id/login_view" layout="@layout/login"/>
+        </ViewFlipper>
+    </FrameLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_height="match_parent"
+        android:layout_width="200dp"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/side_menu"
+        app:headerLayout="@layout/navigation_view_header">
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/activation_email_sent"
+        android:textSize="24sp"
+        android:layout_weight="1.5"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/needs_activation"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_weight="1.5"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/ok"
+        android:id="@+id/activation_ok_button"/>
+
+</LinearLayout>

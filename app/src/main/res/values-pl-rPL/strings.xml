@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FMS App</string>
+    <string name="title_activity_maps">FMS App</string>
+    <string name="stats">Statystyki</string>
+    <string name="map">Mapa</string>
+    <string name="empty">Puste</string>
+    <string name="navigate_to">Przejdź do …</string>
+    <string name="login">Login</string>
+    <string name="password">Hasło</string>
+    <string name="register">Rejestracja</string>
+    <string name="email">email</string>
+    <string name="first_name">Imię</string>
+    <string name="last_name">Nazwisko</string>
+    <string name="register_hint">Potrzebujesz konta?</string>
+    <string name="activation_email_sent">email aktywacyjny zosatł wysłany</string>
+    <string name="needs_activation">Aktywuj swoje konto klikając na link w wiadomości</string>
+    <string name="ok">OK</string>
+    <string name="error_timeout">błąd połączenia</string>
+    <string name="error_auth">bład autoryzacji</string>
+    <string name="error_server">błąd serwera</string>
+    <string name="error_network">błąd sieci</string>
+    <string name="error_parse">błąd parsowania</string>
+    <string name="login_successful">zalogowano pomyślnie</string>
+    <string name="search_ride_by_car_hint">szukaj po samochodach</string>
+    <string name="rides">Przejazdy</string>
+    <string name="time_unknown">czas nieznany</string>
+</resources>
